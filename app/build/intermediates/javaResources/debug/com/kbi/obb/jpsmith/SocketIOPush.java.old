@@ -1,0 +1,42 @@
+package com.kbi.obb.jpsmith;
+
+import com.kbi.obb.runtime.Component;
+import android.content.Context;
+import android.view.View;
+
+/*! \brief Brief description
+ *
+ * Long description
+<h3>Input Ports</h3>
+<table><tr><td>Index</td><td>Name</td><td>Data Type</td></tr><tr><td>0</td><td>Input</td><td>org.json.JSONObject</td></tr>
+</table>
+<h3>Output Ports</h3>
+<table><tr><td>Index</td><td>Name</td><td>Data Type</td></tr>
+</table>
+<h3>Properties</h3>
+<table><tr><td>Name</td><td>Type</td><td>Default Value</td></tr>
+</table>
+*/
+public class SocketIOPush extends Component {
+/// @cond SHOW_ALL
+	private static final int INPUT_IN = 0;
+
+
+	public SocketIOPush(Context context) {
+	super(context);
+	}
+	@Override
+	public void onCreate(Context context) {
+	super.onCreate(context);
+	}
+
+	@Override
+	public void setView(View v) {
+		super.setView(v);
+	}
+
+	@Override
+	public void receive(int portIndex, Object input) {
+	}
+/// @endcond
+}

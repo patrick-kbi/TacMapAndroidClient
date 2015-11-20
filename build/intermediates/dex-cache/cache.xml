@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\libs\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\build\intermediates\pre-dexed\debug\okio-1.6.0-9f562b18f3011449315b8c066a357b08928f24d3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\libs\socket.io-client-0.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81cd1f1489968207e61b269dc0964f34e7b5a544">
+        <dex dex="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\build\intermediates\pre-dexed\debug\socket.io-client-0.6.1-027c4990180eff683294f5c5ce24809591d6ad06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\libs\okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-7a9f798b13eb373528bdd104472ff757dc38bd83.jar" />
+    </item>
+    <item
+        jar="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\libs\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-fd93463e0854f9deb09b38f726a708177ed05dc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\libs\engine.io-client-0.6.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="939f90d47c800626d5b0a4e7f89f98b3dde61dc6">
+        <dex dex="C:\Users\Loading\Google Drive\KnowledgeBridge Projects\LocationPushTest\app\build\intermediates\pre-dexed\debug\engine.io-client-0.6.2-1b44e6e26d24e777ce1a34dd9253bd3c8498bd84.jar" />
+    </item>
+
+</items>
