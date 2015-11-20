@@ -36,7 +36,9 @@ public class SocketIOPush extends Component {
 	private JSONObject message = new JSONObject();
 	private static final String TAG = " SocketIOPush";
 
-	public SocketIOPush(Context context) {super(context);}
+    JSONObject testObject = new JSONObject();
+
+    public SocketIOPush(Context context) {super(context);}
 
 	@Override
 	public void receive(int portIndex, Object input) {
@@ -47,7 +49,7 @@ public class SocketIOPush extends Component {
 				break;
 			case INPUT_IN:
 				message = (JSONObject) input;
-				socket.emit("new message", message);
+                socket.emit("new message", message);
 				break;
 		}
 	}
@@ -58,6 +60,13 @@ public class SocketIOPush extends Component {
 			socket = IO.socket(serverURL);
 		} catch (URISyntaxException e) {}
 		socket.connect();
+
+        try {
+            testObject.put("id","Galaxy S3");
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        socket.emit("user connected", testObject);
 	}
 
 	@Override
