@@ -19,7 +19,7 @@ import android.content.Context;
 public class SocketIOConnectionInfo extends Component {
 /// @cond SHOW_ALL
 	private static final int CONNECTIONINFO_OUT = 0;
-	public String serverURL = "";
+	public String serverURL = "http://10.0.0.14:5670";
 
 	public SocketIOConnectionInfo(Context context) {super(context);}
 

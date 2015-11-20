@@ -44,10 +44,10 @@ component5d6aa04c1645409fb48895311094d63d.addOutputPort(new ComponentOutputPort<
 component5d6aa04c1645409fb48895311094d63d.key = "long";
 addComponent(component5d6aa04c1645409fb48895311094d63d);
 
-com.kbi.obb.jpsmith.SocketIOConnectionInfo component1f58c86090fb437a9a84df0cbfb8a407 = new com.kbi.obb.jpsmith.SocketIOConnectionInfo(this);
-component1f58c86090fb437a9a84df0cbfb8a407.addOutputPort(new ComponentOutputPort<java.lang.String>(0));
-component1f58c86090fb437a9a84df0cbfb8a407.serverURL = "http://10.0.0.14:5670";
-addComponent(component1f58c86090fb437a9a84df0cbfb8a407);
+//com.kbi.obb.jpsmith.SocketIOConnectionInfo component1f58c86090fb437a9a84df0cbfb8a407 = new com.kbi.obb.jpsmith.SocketIOConnectionInfo(this);
+//component1f58c86090fb437a9a84df0cbfb8a407.addOutputPort(new ComponentOutputPort<java.lang.String>(0));
+//component1f58c86090fb437a9a84df0cbfb8a407.serverURL = "http://10.0.0.14:5670";
+//addComponent(component1f58c86090fb437a9a84df0cbfb8a407);
 
 com.kbi.obb.jpsmith.SocketIOPush component4732bb2ba22446d696884cc6c93d0640 = new com.kbi.obb.jpsmith.SocketIOPush(this);
 component4732bb2ba22446d696884cc6c93d0640.addInputPort(new ComponentInputPort<org.json.JSONObject>(0));
@@ -74,7 +74,7 @@ componenta768035280914136ba8354542c723d91.addOutputPort(new ComponentOutputPort<
 componenta768035280914136ba8354542c723d91.key = "clientID";
 addComponent(componenta768035280914136ba8354542c723d91);
 
-ComponentLink link0 = new ComponentLink(component4732bb2ba22446d696884cc6c93d0640.getInput(1), component1f58c86090fb437a9a84df0cbfb8a407.getOutput(0));
+//ComponentLink link0 = new ComponentLink(component4732bb2ba22446d696884cc6c93d0640.getInput(1), component1f58c86090fb437a9a84df0cbfb8a407.getOutput(0));
 ComponentLink link1 = new ComponentLink(component4732bb2ba22446d696884cc6c93d0640.getInput(0), component03ae5e54351f44df8aef01cae3a9cd07.getOutput(0));
 ComponentLink link2 = new ComponentLink(component03ae5e54351f44df8aef01cae3a9cd07.getInput(0), componenta1f0a0636317402ab3d359fa0873eda5.getOutput(0));
 ComponentLink link3 = new ComponentLink(component03ae5e54351f44df8aef01cae3a9cd07.getInput(0), component5d6aa04c1645409fb48895311094d63d.getOutput(0));
